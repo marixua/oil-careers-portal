@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import OilIndustryHeader from '@/components/OilIndustryHeader';
 import ProsConsSection from '@/components/ProsConsSection';
 import ProfessionsSection from '@/components/ProfessionsSection';
@@ -17,20 +17,20 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-pink-50">
+    <div className="min-h-screen bg-white">
       <OilIndustryHeader scrollToSection={scrollToSection} />
       
       <main>
         <div className="py-12 bg-white">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-3xl font-bold text-center mb-6 text-pink-700">
+            <h2 className="text-3xl font-bold text-center mb-6 text-gray-900">
               О проекте
             </h2>
-            <p className="text-lg text-pink-900 mb-4 text-center">
+            <p className="text-lg text-gray-800 mb-4 text-center">
               Этот информационный ресурс создан для школьников и их родителей, чтобы помочь разобраться 
               в различных аспектах нефтяной промышленности и возможностях построения карьеры в этой отрасли.
             </p>
-            <p className="text-lg text-pink-900 text-center">
+            <p className="text-lg text-gray-800 text-center">
               Нефтяная промышленность остаётся одной из ключевых отраслей мировой экономики, предлагая 
               широкие возможности для профессионального роста и самореализации.
             </p>
